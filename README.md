@@ -89,6 +89,7 @@ Visit http://localhost:8080/swagger-ui.html
 ## Error Handling
 - Returns 404 with error reason if a book/borrower is not found.
 - Returns 400 for validation errors or bad requests.
+- Modification is open for handling any specific 5xx business errors.
 
 **Example**:
 ```json
